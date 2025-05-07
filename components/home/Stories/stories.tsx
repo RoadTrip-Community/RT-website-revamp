@@ -35,7 +35,7 @@ const Stories = () => {
   };
 
   return (
-    <div className="bg-[#198046] py-20 md:p-0 px-4">
+    <div className="bg-[#198046] py-20 md:px-0 px-4">
       <div className="max-w-[954px] mx-auto">
         <h2 className="hidden md:block text-5xl font-semibold text-white uppercase text-center font-clash mb-16">
           Success stories
