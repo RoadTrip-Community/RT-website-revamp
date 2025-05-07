@@ -21,7 +21,7 @@ const statistics = [
 const Stats = () => {
   return (
     <div className="bg-black px-8 md:px-0 py-10">
-      <div className="max-w-[954px] mx-auto flex-wrap flex items-center justify-around gap-8">
+      <div className="max-w-[954px] mx-auto flex-wrap flex items-center justify-between gap-8 md:gap-0">
         {statistics.map((stat, idx) => (
           <div
             key={idx}
