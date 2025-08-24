@@ -1,3 +1,5 @@
+"use client";
+
 import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
 
@@ -21,7 +23,11 @@ const Hero = () => {
                 in the power of collaboration to unlock opportunities and create
                 transformative success stories.
               </p>
-              <button className="cursor-pointer mt-8 w-[231px] h-[56px] bg-[#198046] text-white px-4 py-2 text-base font-clash font-semibold uppercase">
+              <button className="cursor-pointer mt-8 w-[231px] h-[56px] bg-[#198046] text-white px-4 py-2 text-base font-clash font-semibold uppercase"
+              onClick={() => {
+                window.open("https://docs.google.com/forms/d/e/1FAIpQLSd9MaZHwqpVxZUw0NhmHxTv99aEQTM6MNbUtacbxu8GOVhAPA/viewform?usp=preview", "_blank");
+              }}
+              >
                 Become a Partner
               </button>
             </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 const Ways = () => {
@@ -89,10 +91,26 @@ const Ways = () => {
         </h3>
 
         <div className="mt-5 flex flex-col md:flex-row items-center justify-around w-full md:w-[425px] mx-auto gap-4 md:gap-0">
-          <button className="font-clash bg-[#CC4D34] uppercase text-white w-full md:min-w-[184px] h-[56px] font-semibold cursor-pointer md:mr-4">
+          <button
+            className="font-clash bg-[#CC4D34] uppercase text-white w-full md:min-w-[184px] h-[56px] font-semibold cursor-pointer md:mr-4"
+            onClick={() => {
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd9MaZHwqpVxZUw0NhmHxTv99aEQTM6MNbUtacbxu8GOVhAPA/viewform?usp=preview",
+                "_blank"
+              );
+            }}
+          >
             an individual
           </button>
-          <button className="font-clash bg-[#198046] uppercase text-white w-full md:min-w-[184px] h-[56px] font-semibold cursor-pointer">
+          <button
+            className="font-clash bg-[#198046] uppercase text-white w-full md:min-w-[184px] h-[56px] font-semibold cursor-pointer"
+            onClick={() => {
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd9MaZHwqpVxZUw0NhmHxTv99aEQTM6MNbUtacbxu8GOVhAPA/viewform?usp=preview",
+                "_blank"
+              );
+            }}
+          >
             an organization
           </button>
         </div>

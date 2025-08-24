@@ -8,9 +8,9 @@ interface CardProps {
   textWidth?: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, bgColor, textWidth }) => {
+const Card: React.FC<CardProps> = ({ title, bgColor, textWidth, href }) => {
   return (
-    <Link href={"#"} className="w-[49%]">
+    <Link href={href || "#"} className="w-[49%]">
       <div
         className={`${bgColor} p-4 md:p-8 border-2 border-black relative group cursor-pointer min-h-[200px] flex items-center w-full`}
       >
