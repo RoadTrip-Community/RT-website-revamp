@@ -24,31 +24,31 @@ const Footer = () => {
               </h3>
               <div className="flex flex-col gap-4">
                 <Link
-                  href="/masterclasses"
+                  href="#"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Masterclasses
                 </Link>
                 <Link
-                  href="/mental-health"
+                  href="#"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Mental Health Sessions
                 </Link>
                 <Link
-                  href="/open-source"
+                  href="#"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Open Source Projects
                 </Link>
                 <Link
-                  href="/sprout"
+                  href="#"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Sprout & Sparkle
                 </Link>
                 <Link
-                  href="/spotlights"
+                  href="#"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Spotlights
@@ -62,31 +62,37 @@ const Footer = () => {
               </h3>
               <div className="flex flex-col gap-4">
                 <Link
-                  href="/stories"
+                  href="/inside#penpals"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   RT Stories
                 </Link>
                 <Link
-                  href="/portfolios"
+                  href="/inside#featured"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Featured Portfolios
                 </Link>
                 <Link
-                  href="/experience"
+                  href="/inside#passenger"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   The {"Passenger's"} Experience
                 </Link>
                 <Link
-                  href="/footprints"
+                  href="/inside#article"
+                  className="text-sm text-[#111413] hover:text-gray-700"
+                >
+                  Article of the Day
+                </Link>
+                {/* <Link
+                  href="/inside#footprints"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Our Footprints
-                </Link>
+                </Link> */}
                 <Link
-                  href="/join"
+                  href="/inside#onboard"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Join Community
@@ -106,19 +112,22 @@ const Footer = () => {
                   About Us
                 </Link>
                 <Link
-                  href="/partner"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd9MaZHwqpVxZUw0NhmHxTv99aEQTM6MNbUtacbxu8GOVhAPA/viewform?usp=preview"
+                  target="_blank"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Become a Partner
                 </Link>
                 <Link
-                  href="/donate"
+                  href="https://flutterwave.com/donate/4l0tmtvm76fk"
+                  target="_blank"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Donate
                 </Link>
                 <Link
-                  href="/shop"
+                  href="https://rt-swags.qshop.ng"
+                  target="_blank"
                   className="text-sm text-[#111413] hover:text-gray-700"
                 >
                   Shop RT Swags

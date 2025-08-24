@@ -7,12 +7,24 @@ const Inside = () => {
   return (
     <div>
       <Hero />
-      <PenPals />
-      <Featured />
-      <Passenger />
-      <Article />
-      <FootPrints />
-      <Onboard />
+      <div id="penpals">
+        <PenPals />
+      </div>
+      <div id="featured">
+        <Featured />
+      </div>
+      <div id="passenger">
+        <Passenger />
+      </div>
+      <div id="article">
+        <Article />
+      </div>
+      {/* <div id="footprints">
+        <FootPrints />
+      </div> */}
+      <div id="onboard">
+        <Onboard />
+      </div>
       <Footer />
     </div>
   );

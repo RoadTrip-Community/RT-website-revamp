@@ -18,7 +18,7 @@ const Featured = () => {
       </div>
 
       <div className="flex flex-col md:flex-row">
-        {/* First */}
+        {/* First - PM Portfolio */}
         <div className="border-2 border-black min-h-[373px]">
           <img src="/img.png" alt="first featured" />
           <div className="flex items-end justify-end flex-col py-5 px-5">
@@ -26,41 +26,58 @@ const Featured = () => {
               Ayomidotun
             </h2>
             <div className="flex items-center gap-2">
-              <p className="text-black text-clash font-normal text-base">
-                behance.net/ayomidxtun
-              </p>
+              <a 
+                href="https://azeezbolarinwas.vzy.io/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-black text-clash font-normal text-base hover:underline cursor-pointer"
+              >
+                azeezbolarinwas.vzy.io
+              </a>
               <img src="/aru.png" alt="aru" />
             </div>
           </div>
         </div>
 
+        {/* Second - PD Portfolio */}
         <div className="border-2 border-black min-h-[373px]">
-          <img src="/alex.png" alt="secnd featured" />
+          <img src="/alex.png" alt="second featured" />
           <div className="flex items-end justify-end flex-col py-5 px-5 bg-black">
             <h2 className="text-white text-clash font-bold text-[40px]">
               Alex
             </h2>
             <div className="flex items-center gap-2">
-              <p className="text-white text-clash font-normal text-base">
+              <a 
+                href="https://alexoyebade.xyz" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white text-clash font-normal text-base hover:underline cursor-pointer"
+              >
                 alexoyebade.xyz
-              </p>
+              </a>
               <img src="/aru.png" alt="aru" />
             </div>
           </div>
         </div>
 
+        {/* Third - Writing Portfolio */}
         <div className="border-2 border-black min-h-[373px]">
           <img src="/world.png" alt="third featured" />
           <div className="flex items-end justify-end flex-col py-5 px-5">
-            {/* <h2 className="text-black text-clash font-bold text-[40px]">
-              Ayomidotun
+            <h2 className="text-black text-clash font-bold text-[40px]">
+              Zainab
             </h2>
             <div className="flex items-center gap-2">
-              <p className="text-black text-clash font-normal text-base">
-                behance.net/ayomidxtun
-              </p>
+              <a 
+                href="https://bit.ly/ZainabUX" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-black text-clash font-normal text-base hover:underline cursor-pointer"
+              >
+                bit.ly/ZainabUX
+              </a>
               <img src="/aru.png" alt="aru" />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

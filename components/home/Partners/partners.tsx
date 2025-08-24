@@ -16,7 +16,7 @@ const Partners = () => {
 
       <div className="w-[259px] bg-[#111413] h-[56px] mx-auto text-white">
         <Link
-          href={"/"}
+          href={"/partner"}
           className="w-full h-full flex items-center justify-center font-semibold font-clash uppercase"
         >
           See all our partners

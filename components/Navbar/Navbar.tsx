@@ -45,16 +45,18 @@ const Navbar = () => {
           </div>
         </div>
         {/* Desktop Buttons */}
-        <div className="hidden md:flex items-center gap-4 h-full">
+        <div className="hidden md:flex items-center h-full">
           <Link
-            href="/join"
-            className="border-l-1 border-black text-base bg-none text-black px-6 w-[144px] font-semibold h-full flex items-center justify-center hover:bg-gray-800"
+            href="https://t.me/+aybU1Ow37IEyODNk"
+            target="_blank"
+            className="border-l-1 border-black text-base bg-none text-black px-6 w-[144px] font-semibold h-full flex items-center justify-center cursor-pointer"
           >
             JOIN
           </Link>
           <Link
-            href="/donate"
-            className="text-base bg-black text-white px-6 w-[144px] font-semibold h-full flex items-center justify-center hover:bg-gray-800"
+            href="https://flutterwave.com/donate/4l0tmtvm76fk"
+            target="_blank"
+            className="text-base bg-black text-white px-6 w-[144px] font-semibold h-full flex items-center justify-center cursor-pointer"
           >
             DONATE
           </Link>

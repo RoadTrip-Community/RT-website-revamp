@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         <div>
           <img src="/inside.png" alt="inside text" />
-          <img src="/bus.png" alt="bus photo" className="absolute w-[241px] bottom-0 right-0 md:right-[-300px]" />
+          <img src="/bus.png" alt="bus photo" className="absolute w-[241px] md:w-auto bottom-0 right-0 md:right-[-300px]" />
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 const Onboard = () => {
@@ -14,20 +16,16 @@ const Onboard = () => {
             growth and achievement!
           </p>
 
-          <div className="flex flex-col items-center gap-4">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="w-full max-w-[600px] h-[56px] px-4 border-2 border-white bg-none text-white focus:outline-none"
+          <div className="flex flex-col items-center gap-4 w-full">
+            <iframe 
+              src="https://roadtripcommunity.substack.com/embed" 
+              width="100%" 
+              height="320" 
+              style={{border: '1px solid #EEE', background: 'white'}} 
+              frameBorder="0" 
+              scrolling="no"
+              title="Subscribe to RT Pen Pals"
             />
-            <div className="w-[200px] h-[56px] relative">
-              <div className="bg-white h-full w-full absolute right-[-5px] bottom-[-5px] z-[1]"></div>
-              <div className="relative z-[2] w-full h-full">
-                <button className="w-full h-full font-clash text-base bg-black text-white px-6 py-4 font-semibold flex items-center justify-center hover:bg-gray-800 transition-colors">
-                  SUBSCRIBE
-                </button>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -46,7 +44,12 @@ const Onboard = () => {
             <div className="w-[200px] h-[56px] relative">
               <div className="bg-white h-full w-full absolute right-[-5px] bottom-[-5px] z-[1]"></div>
               <div className="relative z-[2] w-full h-full">
-                <button className="w-full h-full font-clash text-base bg-black text-white px-6 py-4 font-semibold flex items-center justify-center hover:bg-gray-800 transition-colors">
+                <button
+                  className="w-full h-full font-clash text-base bg-black text-white px-6 py-4 font-semibold flex items-center justify-center cursor-pointer transition-colors"
+                  onClick={() => {
+                    window.open("https://t.me/+aybU1Ow37IEyODNk", "_blank");
+                  }}
+                >
                   JOIN COMMUNITY
                 </button>
               </div>
