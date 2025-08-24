@@ -4,11 +4,11 @@ import Link from "next/link";
 interface CardProps {
   title: string;
   bgColor: string;
-  href: string;
+  href?: string;
   textWidth?: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, bgColor, href, textWidth }) => {
+const Card: React.FC<CardProps> = ({ title, bgColor, textWidth }) => {
   return (
     <Link href={"#"} className="w-[49%]">
       <div
@@ -60,14 +60,12 @@ const PenPals = () => {
               <Card
                 title="What is it like in Roadtrip Community?"
                 bgColor="bg-[#2E7D32]"
-                href="/community-life"
               />
             </div>
             <div className="w-full md:w-[469px]">
               <Card
                 title="Dreams and memories"
                 bgColor="bg-[#265EEA]"
-                href="/dreams-memories"
               />
             </div>
           </div>
@@ -77,7 +75,6 @@ const PenPals = () => {
               <Card
                 title="Dealing with imposter syndrome: From an actual imposter"
                 bgColor="bg-[#D84315]"
-                href="/imposter-syndrome"
                 textWidth="w-[480px]"
               />
             </div>
@@ -88,14 +85,12 @@ const PenPals = () => {
               <Card
                 title="Dealing with imposter syndrome: From an actual imposter"
                 bgColor="bg-[#4D34CC]"
-                href="/faith-in-yourself"
               />
             </div>
             <div className="w-full md:w-[388px]">
               <Card
                 title="Faith... in yourself"
                 bgColor="bg-[#7A1980]"
-                href="/dreams-memories"
               />
             </div>
           </div>
