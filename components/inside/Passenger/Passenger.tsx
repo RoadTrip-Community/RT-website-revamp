@@ -16,7 +16,7 @@ const Passenger = () => {
       </div>
 
       <div className="py-10">
-        <div className="border-2 border-white border-l-0 border-r-0">
+        <div className="border-1 border-white/40 border-l-0 border-r-0">
           <div className="w-full md:w-[954px] flex justify-center flex-col md:flex-row mx-auto px-4 md:px-0">
             <img src="/peop.png" alt="people" />
             <div className="bg-[#F6B847] flex justify-center flex-col text-left md:px-10 text-black px-4 py-4 md:py-0">
@@ -45,35 +45,37 @@ const Passenger = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[954px] flex justify-center flex-col md:flex-row mx-auto px-4 md:px-0 mt-10">
-          <img src="/peop1.png" alt="people" />
-          <div className="bg-[#F6B847] flex justify-center flex-col text-left md:px-10 text-black px-4 py-4 md:py-0">
-            <h3 className="font-clash text-black text-[18px] md:text-[24px] font-bold">
-              For Professionals
-            </h3>
-            <p className="text-sm font-medium text-[#111413] my-3">
-              Refine your skills and build meaningful connections:
-            </p>
+        <div className="border-1 border-white/40 border-l-0 border-r-0">
+          <div className="w-full  md:w-[954px] flex justify-center flex-col md:flex-row mx-auto px-4 md:px-0 mt-10">
+            <img src="/peop1.png" alt="people" />
+            <div className="bg-[#F6B847] flex justify-center flex-col text-left md:px-10 text-black px-4 py-4 md:py-0">
+              <h3 className="font-clash text-black text-[18px] md:text-[24px] font-bold">
+                For Professionals
+              </h3>
+              <p className="text-sm font-medium text-[#111413] my-3">
+                Refine your skills and build meaningful connections:
+              </p>
 
-            <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black">
-              Collaborate on projects: Work alongside peers on initiatives that
-              challenge and expand your expertise.
-            </div>
+              <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black">
+                Collaborate on projects: Work alongside peers on initiatives
+                that challenge and expand your expertise.
+              </div>
 
-            <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black my-3">
-              Engage in discussions: Share insights, participate in
-              problem-solving sessions, or simply explore new ideas with
-              like-minded professionals.
-            </div>
+              <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black my-3">
+                Engage in discussions: Share insights, participate in
+                problem-solving sessions, or simply explore new ideas with
+                like-minded professionals.
+              </div>
 
-            <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black">
-              Connect with a buddy: Foster relationships that encourage growth
-              and provide fresh perspectives.
+              <div className="text-sm font-medium text-[#111413] py-3 px-3 border border-black">
+                Connect with a buddy: Foster relationships that encourage growth
+                and provide fresh perspectives.
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="border-2 border-white border-l-0 border-r-0">
+        <div className="border-1 border-white/40 border-l-0 border-r-0">
           <div className="w-full md:w-[954px] flex justify-center flex-col md:flex-row mx-auto px-4 md:px-0 mt-10">
             <img src="/peop2.png" alt="people" />
             <div className="bg-[#F6B847] flex justify-center flex-col text-left md:px-10 text-black px-4 py-4 md:py-0">

@@ -6,8 +6,7 @@ const Onboard = () => {
   return (
     <div className="bg-[#CC4D34] py-20 md:px-0 px-4">
       <div className="max-w-[954px] mx-auto">
-        {/* RT Pen Pals Section */}
-        <div className="border-2 border-black p-10 mb-20">
+        {/* <div className="border-2 border-black p-10 mb-20">
           <h2 className="text-[24px] md:text-[40px] font-semibold text-white uppercase text-center font-clash mb-4">
             RT PEN PALS
           </h2>
@@ -27,7 +26,7 @@ const Onboard = () => {
               title="Subscribe to RT Pen Pals"
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Come Onboard Section */}
         <div className="border-2 border-black p-10">

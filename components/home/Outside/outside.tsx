@@ -9,18 +9,26 @@ const Outside = () => {
         </h2>
 
         {/* First Layer */}
-        <div className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}>
-          <div className={`relative border border-black h-[344px] w-full md:w-[60%]`}>
+        <div
+          className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}
+        >
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[60%] bg-cover bg-center bg-no-repeat`}
+            style={{ backgroundImage: "url(/wudo.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">November 2024</p>
                 <h3 className="text-base font-clash font-semibold text-black uppercase">
-                  {"World’s"} Usability day
+                  {"World's"} Usability day
                 </h3>
               </div>
             </div>
           </div>
-          <div className={`relative border border-black h-[344px] w-full md:w-[40%]`}>
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[40%]`}
+            style={{ backgroundImage: "url(/wudo6.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">August 2024</p>
@@ -33,8 +41,13 @@ const Outside = () => {
         </div>
 
         {/* Second layer */}
-        <div className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}>
-          <div className={`relative border border-black h-[344px] w-full md:w-[50%]`}>
+        <div
+          className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}
+        >
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[50%]`}
+            style={{ backgroundImage: "url(/wudo2.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">August 2024</p>
@@ -44,7 +57,10 @@ const Outside = () => {
               </div>
             </div>
           </div>
-          <div className={`relative border border-black h-[344px] w-full md:w-[50%]`}>
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[50%]`}
+            style={{ backgroundImage: "url(/wudo3.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">
@@ -59,8 +75,13 @@ const Outside = () => {
         </div>
 
         {/* Third layer */}
-        <div className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}>
-          <div className={`relative border border-black h-[344px] w-full md:w-[40%]`}>
+        <div
+          className={`flex items-start w-full md:w-[954px] flex-col md:flex-row`}
+        >
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[40%]`}
+            style={{ backgroundImage: "url(/wudo4.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">May 2023</p>
@@ -70,7 +91,10 @@ const Outside = () => {
               </div>
             </div>
           </div>
-          <div className={`relative border border-black h-[344px] w-full md:w-[60%]`}>
+          <div
+            className={`relative border border-black h-[344px] w-full md:w-[60%]`}
+            style={{ backgroundImage: "url(/wudo5.png)" }}
+          >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
                 <p className="text-[12px] text-[#788982] mb-2">May 2022</p>

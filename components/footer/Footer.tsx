@@ -85,6 +85,13 @@ const Footer = () => {
                 >
                   Article of the Day
                 </Link>
+                <Link
+                  href="https://roadtripcommunity.substack.com/"
+                  target="_blank"
+                  className="text-sm text-[#111413] hover:text-gray-700"
+                >
+                  Stories from RT Pen Pals
+                </Link>
                 {/* <Link
                   href="/inside#footprints"
                   className="text-sm text-[#111413] hover:text-gray-700"
@@ -149,7 +156,7 @@ const Footer = () => {
             </Link>
             <div className="flex items-center gap-4 w-full md:w-auto">
               <Link
-                href="https://twitter.com"
+                href="https://x.com/roadtripcomm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -163,7 +170,7 @@ const Footer = () => {
                 <Image src="/ins.png" alt="Instagram" width={24} height={24} />
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/roadtrip-community/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

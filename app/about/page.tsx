@@ -1,4 +1,10 @@
-import { Hero, About, Excos, Facilitators } from "@/components/about";
+import {
+  Hero,
+  About,
+  Excos,
+  Facilitators,
+  AboutExco,
+} from "@/components/about";
 import Footer from "@/components/footer/Footer";
 import { Onboard } from "@/components/home";
 import React from "react";
@@ -9,6 +15,7 @@ const AboutPage = () => {
       <Hero />
       <About />
       <Excos />
+      <AboutExco />
       <Facilitators />
       <Onboard />
       <Footer />
