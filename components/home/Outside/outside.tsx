@@ -14,7 +14,7 @@ const Outside = () => {
         >
           <div
             className={`relative border border-black h-[344px] w-full md:w-[60%] bg-cover bg-center bg-no-repeat`}
-            style={{ backgroundImage: "url(/wudo.png)" }}
+            style={{ backgroundImage: "url(/wudo.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
@@ -27,7 +27,7 @@ const Outside = () => {
           </div>
           <div
             className={`relative border border-black h-[344px] w-full md:w-[40%]`}
-            style={{ backgroundImage: "url(/wudo6.png)" }}
+            style={{ backgroundImage: "url(/wudo6.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
@@ -46,7 +46,7 @@ const Outside = () => {
         >
           <div
             className={`relative border border-black h-[344px] w-full md:w-[50%]`}
-            style={{ backgroundImage: "url(/wudo2.png)" }}
+            style={{ backgroundImage: "url(/wudo2.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
@@ -59,7 +59,7 @@ const Outside = () => {
           </div>
           <div
             className={`relative border border-black h-[344px] w-full md:w-[50%]`}
-            style={{ backgroundImage: "url(/wudo3.png)" }}
+            style={{ backgroundImage: "url(/wudo3.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
@@ -80,7 +80,7 @@ const Outside = () => {
         >
           <div
             className={`relative border border-black h-[344px] w-full md:w-[40%]`}
-            style={{ backgroundImage: "url(/wudo4.png)" }}
+            style={{ backgroundImage: "url(/wudo4.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">
@@ -93,7 +93,7 @@ const Outside = () => {
           </div>
           <div
             className={`relative border border-black h-[344px] w-full md:w-[60%]`}
-            style={{ backgroundImage: "url(/wudo5.png)" }}
+            style={{ backgroundImage: "url(/wudo5.png)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
           >
             <div className="absolute bottom-10 z-10 bg-white p-2 h-[86px] w-[305px] flex flex-col justify-center border border-black">
               <div className="p-2 border-1 border-[#111413]">

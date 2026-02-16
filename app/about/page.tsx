@@ -14,7 +14,7 @@ const AboutPage = () => {
     <div>
       <Hero />
       <About />
-      <Excos />
+      {/* <Excos /> */}
       <AboutExco />
       <Facilitators />
       <Onboard />
