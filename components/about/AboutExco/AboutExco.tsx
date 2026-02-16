@@ -14,17 +14,17 @@ const AboutExco = () => {
               mission
             </p>
           </div>
-          <div className="flex justify-center gap-4">
-            <div className="w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
+          <div className="flex justify-center gap-4 flex-wrap">
+            <div className="w-full md:w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
               Governance
             </div>
-            <div className="w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
+            <div className="w-full md:w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
               Operations
             </div>
-            <div className="w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
+            <div className="w-full md:w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
               Development
             </div>
-            <div className="w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
+            <div className="w-full md:w-[220px] h-[120px] bg-[#C6CCFF] text-black flex items-center justify-center font-medium font-clash">
               Creative
             </div>
           </div>
