@@ -1,7 +1,6 @@
 import {
   Hero,
   About,
-  Excos,
   Facilitators,
   AboutExco,
 } from "@/components/about";

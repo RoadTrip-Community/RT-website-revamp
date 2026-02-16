@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface Facilitator {
@@ -80,7 +81,7 @@ const Facilitators = () => {
                       key={facilitator.name}
                       className="px-4 cursor-pointer py-2 border border-[#111413] flex items-center gap-2 hover:scale-105 transition-transform bg-white"
                     >
-                      <img src={facilitator.emoji} alt={facilitator.name} className="w-10 h-10" />
+                      <Image src={facilitator.emoji} alt={facilitator.name} className="w-8 h-8" width={32} height={32} />
                       <span className="font-semibold text-[#111413]">
                         {facilitator.name}
                       </span>
