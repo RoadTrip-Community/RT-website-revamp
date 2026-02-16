@@ -85,7 +85,7 @@ const Facilitators = () => {
                       <span className="font-semibold text-[#111413]">
                         {facilitator.name}
                       </span>
-                    </div>
+                    </div> 
                   ))}
                 </div>
               );
